@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+h1 {
     background-color: green;
     height: 15rem;
 
@@ -36,8 +36,8 @@ p, h2 {
 .main {
     padding: 10rem;
     font-size: 50px;
-
-    
+    display: block;
+    align-items: center;
 }
 
 #botao{
@@ -47,6 +47,8 @@ p, h2 {
    border-radius: 20%;
    background-color: green;
    margin-left: 5rem;
+   display: block;
+
 }
 
 section {
@@ -55,9 +57,24 @@ section {
     margin-left: 10rem ;
 }
 
-.imagem {
+#imagem {
     padding-top: 3rem;
-    padding-left: 5rem;
     text-align: center;
     align-items: center;
+    border-radius: 30%;
+    width: 300px;
+}
+
+div#fotos {
+    
+        display: block;
+        padding-left: 20rem;
+        margin-right: auto;
+        width: 50%;
+
+    
+}
+
+#botao:hover {
+    scale: 2rem;
 }
